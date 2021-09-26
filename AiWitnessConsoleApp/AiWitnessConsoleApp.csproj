@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AiWitnessBaseLibrary\AiWitnessBaseLibrary.csproj">
+      <Project>{60d67967-14d0-49fd-9b9e-fd592dae15c0}</Project>
+      <Name>AiWitnessBaseLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
