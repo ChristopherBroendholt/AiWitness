@@ -12,11 +12,12 @@ namespace AiWitnessConsoleApp
     {
         static void Main(string[] args)
         {
-            FileHandling.GetFilePaths();
+            string[] paths = FileHandling.GetFilePaths();
             FileHandling.GetFileNames();
+            
 
-            Video video = new Video();
-
+            Video video = new Video(paths[0],true);
+            video.GetByteData();
 
             Console.ReadLine();
         }

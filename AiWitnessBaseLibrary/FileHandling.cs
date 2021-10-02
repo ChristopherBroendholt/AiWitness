@@ -9,6 +9,10 @@ namespace AiWitnessBaseLibrary
 {
     public static class FileHandling
     {
+        /// <summary>
+        /// det her er vildt smart så det skal vi huske
+        /// </summary>
+        /// <returns></returns>
         private static string GetFolderPath()
         {
             string filePathTmp = Directory.GetCurrentDirectory();
@@ -44,20 +48,6 @@ namespace AiWitnessBaseLibrary
             return fileNames;
         }
 
-        //public string[] GetFilePaths()
-        //{
-
-        //}
-
-        //public string[] GetFileNames()
-        //{
-
-        //}
-
-        //public string[] GetFilePathByName()
-        //{
-
-        //}
     }
 
 
